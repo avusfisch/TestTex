@@ -31,10 +31,14 @@
 %Zitate 
 \usepackage[style=german]{csquotes}
 \usepackage[style=apa]{biblatex}
-\usepackage{hyperref}
+\usepackage[
+  colorlinks=false,      % keine farbigen Links
+  pdfborder={0 0 0},     % keine sichtbaren Boxen
+]{hyperref}
 \addbibresource{AO.bib}
 
 %Tabellen Setup
+\usepackage{float} % Zur Postions Erzwingung 
 \usepackage{booktabs}
 \usepackage{threeparttable}
 \usepackage{tabularx}
@@ -64,16 +68,17 @@
 \usepackage{fontawesome5}
 
 
-
-
 %\setlist{nosep, left=0pt}
 %\setlist[itemize,1]{label=\faChevronRight}
 %\setlist[itemize,2]{label=\faAngleRight}
 
+\usepackage{comment}
+
 
 \begin{document}
 
-\begin{titlepage}
+\begin{comment}
+    \begin{titlepage}
     \begin{center}
         %\vspace*{0.25in}
         \large SS2025S 200049-1 Arbeits- und Organisationspsychologie \\
@@ -84,17 +89,19 @@
         Arbeitssituation \\
         \vspace*{1in}
         \large 
-        Vorname Name, Matrikelnummer \\
-        Vorname Name, Matrikelnummer \\
-        Vorname Name, Matrikelnummer \\
-        Vorname Name, Matrikelnummer \\
+        Yannick Stöcklin, 12136314 \\
+        Lena Freise, 01447889 \\
+        Julia Lehner, 12041326 \\
+        Felix Sammer, 11936238 \\
         \vfill
         Lehrveranstaltungsleitung: \\
-        Univ.-Prof. Dr. Christian Korunka \\
-        Arabella Mühl, MSc \\
+        Univ.-Prof. Mag. Dr. Roman Prem \\
+        Dr. Arabella Mühl \\
         \vspace{1in}   
     \end{center}
 \end{titlepage}
+\end{comment}
+
 
 \tableofcontents
 
@@ -105,11 +112,31 @@
 
 \subsection{Beschreibung der Tätigkeit}
 
+Die untersuchte Person, Frau Z., ist seit dem Jahr 2022 als Flugbegleiterin bei der Austrian Airlines, 
+einem international tätigen Luftfahrtunternehmen mit Sitz in Niederösterreich, 
+tätig. Das Unternehmen bietet Linien und Charterflüge im europäischen und interkontinentalen Raum. 
+Der Hauptsitz befindet sich nahe Wien, jedoch gibt es mehrere Unternehmensstandorte in Europa, 
+an denen Flugbegleiter:innen zum Einsatz kommen können.
 
+Ein zentrales Merkmal der Organisationsstruktur ist die hierarchische Gliederung im Bordbetrieb.
+Eine Crew besteht meist aus einem oder mehreren ranghöheren Senior Flugbegleiter:innen und den zugehörigen rangniederen Flugbegleiter:innen.
+Die Dienstplanerstellung erfolgt ungefähr zwei Monate im Vorhinein und wird bis zu neun Tage vor Dienstantritt bekannt gegeben, 
+dabei gibt es die Möglichkeit von Seiten der Arbeitgeber, auf konkrete Terminwünsche Rücksicht zu nehmen.
+Die durchzuführenden Tätigkeiten der Crew sind hoch standardisiert. Es gibt klare Regeln wie und wann etwas durchzuführen ist. 
+Dazu haben die verschiedenen Teammitglieder genau definierte Rollen bezüglich ihrer Funktion.
+
+Frau Z. arbeitet, abhängig vom Dienstplan, sowohl auf Kurz- als auch auf Langstreckenflügen. 
+Ihr Aufgabenbereich umfasst meist sicherheitsrelevante Tätigkeiten,
+Einweisung von Passagieren, die Kontrolle des Handgepäcks und den Bordservice.
+Trotz der hohen Standardisierung sind Arbeitszeiten, Aufenthaltsorte und Tagesabläufe oft sehr unterschiedlich.
+
+\blockquote{
+    \tiny
 Die untersuchte Person, Frau Z., ist seit dem Jahr 2022 als Flugbegleiterin bei der Austrian Airlines, 
 einem international tätigen Luftfahrtunternehmen mit Sitz in Niederösterreich, 
 tätig. Das Unternehmen bietet Linien und Charterflüge im europäischen und interkontinentalen Raum. 
 Es verfügt über ein großes Streckennetz und legt den Fokus auf Sicherheit und Servicequalität. 
+% Extrem komischer Werbe Satz
 Der Hauptsitz befindet sich nahe Wien, jedoch gibt es mehrere Unternehmensstandorte in Europa, an denen Flugbegleiter*innen zum Einsatz kommen können.
 
 Ein zentrales Merkmal der Organisationsstruktur ist die hierarchische Gliederung im Bordbetrieb.
@@ -123,21 +150,33 @@ Die Untersuchungsperson arbeitet, abhängig vom Dienstplan, sowohl auf Kurz- als
 Ihr Aufgabenbereich umfasst meist sicherheitsrelevante Tätigkeiten,
 Einweisung von Passagieren, die Kontrolle des Handgepäcks und den Bordservice.
 Trotz der hohen Standardisierung sind Arbeitszeiten, Aufenthaltsorte und Tagesabläufe oft sehr unterschiedlich.
+}
 
 
 \subsection{Beschreibung der Fragestellung}
 
+Im Rahmen des vorliegenden Analyseprojekts wird die Tätigkeit von Frau Z. als Flugbegleiterin beleuchtet. 
+Dabei soll die folgende Fragestellung beantwortet werden:
+\begin{enumerate}
+    \item Mit welchen Anforderungen ist Frau Z. in ihrer Tätigkeit konfrontiert und
+    welche Ressourcen stehen ihr zur Bewältigung zur Verfügung?
+    \item Durch welche Maßnahmen können Anforderungen 
+    reduziert und Ressourcen zur Bewältigung erhöht werden? 
+\end{enumerate}
+ 
+\blockquote{
+\tiny
 Im Rahmen des vorliegenden Analyseprojekts setzen wir uns mit der Tätigkeit der Flugbegleiterin 
-Frau Z. die seit X Jahren bei X Airline tätig ist. Dabei liegt der Fokus auf der folgenden 
+Frau Z., die seit ca. 3 Jahren bei Austrian Airlines tätig ist. Dabei liegt der Fokus auf der folgenden 
 Fragestellung:
 Mit welchen Anforderungen ist Frau Z. in ihrer Tätigkeit konfrontiert und
 welche Ressourcen stehen ihr zur Bewältigung zur Verfügung? Durch welche Maßnahmen kann der empfundene 
-Stress reduziert und die Ressourcen zur Bewältigung erhöht werden? 
+Stress reduziert und die Ressourcen zur Bewältigung erhöht werden? }
 
 \section{Vorgehen}
 
 Der Feldzugang zur Untersuchungsperson erfolgte über eine persönlichen Kontakt eines Mitglieds 
-unserer Gruppe. Dabei wurde Frau Z. über as Vorhaben und den geplanten Ablauf informiert und 
+unserer Gruppe. Dabei wurde Frau Z. über as Vorhaben informiert und 
 es wurden erste Informationen bezüglich ihrer Tätigkeit erhoben. Basierend drauf und 
 unseren Intressenschwerpunkten aufbauend haben wir unsere Fragestellung entwickelt. 
 
@@ -162,50 +201,75 @@ mithilfe einer Software transkribiert und von Teilen der Gruppe ausgewertet.
 Anschließend wurden die Ergebnisse des ISTA und des Interviews final interpretiert und 
 geigente Maßnahmen abgleitet. 
 
+\blockquote{
+\tiny
+Der Feldzugang zur Untersuchungsperson erfolgte über eine persönlichen Kontakt eines Mitglieds 
+unserer Gruppe. Dabei wurde Frau Z. über as Vorhaben und den geplanten Ablauf informiert und 
+es wurden erste Informationen bezüglich ihrer Tätigkeit erhoben. Basierend drauf und 
+unseren Intressenschwerpunkten aufbauend haben wir unsere Fragestellung entwickelt. 
+
+Anschließend wurden die Termine für den quantiativen Fragebogen und das quliative Interview 
+mit Frau Z. vereinbart. Dabei wurden die Termine so gewählt, dass im Interview auf die Ergebnisse 
+des Fragebogens eingegangen werden konnte. 
+
+Nach sorgfältiger Analyse des Theoretischen 
+hintergrunds und der Analysekriterien wurde der ISTA, als qualitatives instrument zur 
+Stressbezogenen Tätigkeitsanalyse ausgewählt.
+
+Der Fragebogen wurde der Untersuchungspseron zum vereinbartem Zeitpunkt digital übermittelt und 
+von dieser nach der Bearbeitung ausgefüllt zurückgeschickt. Die Ergebnisse des Fragebogens wurden 
+von der Gruppe auf Auffälligkeiten analysiert um draus einzelne Fragen für das Anschließende 
+Interview abzuleiten. 
+
+Daraufhin wurde ein Interview Leitfaden erstellt. 
+Nach einholen des Einverständnisses der Versuchsperson wurde das Interview von zwei Mitgliedern 
+der Gruppe an einem öffentlichem Ort durchgeführt und aufgezeichnet. Das Interview wurde
+mithilfe einer Software transkribiert und von Teilen der Gruppe ausgewertet. 
+
+Anschließend wurden die Ergebnisse des ISTA und des Interviews final interpretiert und 
+geigente Maßnahmen abgleitet. }
 
 
 \subsection{Quantitative Befragung: ISTA}
 
-\subsubsection{Das Testverfahren}
+\subsubsection*{Das Testverfahren}
 
-Das von uns ausgewählte Testverfahren, um unsere Fragestellung zu untersuchen, 
-ist der ISTA: Instrument zur Stressbezogenen Tätigkeitsanalyse 
+Als qualitatives Verfahren zur beantwortung der Fragestellung wurde der ISTA - Instrument zur Stressbezogenen Tätigkeitsanalyse - verwendet 
 \parencite{semmerISTAInstrumentZur1998}. 
-Die theoretische Grundlage dieses Tests ist das Transaktionale Stressmodell 
-welches sich mit dem Konstrukt aus unserer Fragestellung deckt und Stress
-als Produkt von Diskrepanz zwischen wahrgenommenen Ressourcen und externen, 
-sowie internen Anforderungen sieht (Lazarus und  Folkmann, 1984) 
-und die Handlungsregulationstheorie (Hacker, 1986; Volpert,
-1987). 
-Der Einfluss der objektiven Faktoren wird von den Autoren des ISTA hierbei jedoch
-stärker gewichtet als es in der originalen Theorie von Lazarus und Folkmann der Fall ist.
 Das Ziel des Fragebogens ist es Merkmale der Arbeit zu erheben, die stressrelevant sind,
-wozu sowohl Ressourcen als auch Stressoren erhoben werden mit dem Ziel einer
-Abschätzung der Folgen für Maßnahmen zur Arbeitsgestaltung. Die Durchführung des
-Fragebogens dauert etwa eine Stunde (Semmer et al.,1999).
-Der Fragebogen liegt in zweifacher Ausfertigung vor, einmal als Ratingversion für
-Untersucherinnen und einmal für Arbeitnehmerinnen, wobei in unserer Testung letztere
-Version angewandt wird. Das Verfahren wurde entwickelt, um insbesondere
-Belastungsschwerpunkte von Produktions- und Büroarbeitstätigkeiten zu untersuchen. Da
-die Fragen innerhalb des Fragebogens aber nicht auf konkrete Tätigkeiten der Büroarbeit
-ausgerichtet sind, liegt unseres Erachtens nach kein Widerspruch für unsere Anwendung im
-Bereich der Anforderungserhebung für den Job als Flugbegleiter:in vor. Um sicherzugehen,
-dass die Antworten auf die Fragen auch von uns richtig verstanden wurden, ist eine
-Nachbesprechung im Interview mit der Testperson nach dem Ausfüllen des Fragebogens
-angedacht und etwaige Auffälligkeiten einer möglichen Beeinflussung des
-Analyseergebnisses aufgrund unserer Wahl des Fragebogens werden im Abschlussbericht
-von uns herausgehoben
+wozu sowohl Ressourcen als auch Stressoren beleuchtet werden, aus welchen im weiteren Verlauf 
+Maßnahmen zur Arbeitsgestaltung und Belastungsopritmierung abgleitet werden können \parencite{semmerInstrumentZurStressbezogenen1999}. 
 
+Theoretische Hintergrund des Fragebogens sind die Handlungsregulations Theorie, aus welcher sich eine Störung der Handlungsregulation
+als wichtiger Faktor für das entstehen von Stress abgleiten lässt, als auch das Transaktionale Stressmodell, 
+welches Stress als Produkt einer Diskrepanz zwischen wahrgenommenen Ressourcen und Anforderungen beschreibt, 
+wobei im Fragebogen hierbei der Fokus mehr auf objective Faktor statt auf subjective Interpretationen gelegt wird 
+\parencite{semmerInstrumentZurStressbezogenen1999}.
+
+Das Verfahren wurde ursprünglich entwickelt um Belastungsschwerpunkte von Produktions- und Büroarbeitstätigkeiten zu untersuchen. 
+Da die Fragen innerhalb des Fragebogens aber nicht auf konkrete Tätigkeiten der Büroarbeit
+ausgerichtet sind und zur zusätzlichen Abklärung ebenfalls ein qualitatives Interview durchgeführt wurde, 
+liegt unseres Erachtens nach kein Widerspruch für unsere Anwendung im
+Bereich der Anforderungserhebung für den Job als Flugbegleiter:in vor. 
+Geschützt wird diese Ausnahme zudem von einer Meta-Analyse von \textcite{irmerInstrumentStressOrientedTask2019}, welche für den Großteil der 
+Skalen nur eine geringe Beeinflussung durch die Branche der Tätigkeit, sowie eine Reihe weiter Faktoren feststellte.
+ 
+Um mögliche Validitäts-Probleme zu minimieren wurde außerdem eine kurze Nachbesprechung des Fragebogens im Rahmen des Interviews durchgeführt, 
+wobei Frau Z. sich selbst zum Inhalt des Fragebogens sowie etwaigen anfälligen Ergebnissen äußern konnte. 
+
+Eine detaillierte Auflistung der Skalen des ISTA, sowie der deren inhaltliche Bedeutung und die Anzahl der dazugehörigen Items, 
+befindet sich in Tabelle \ref{ITSA_Dims}.
 
 \begin{table}[h]
     \centering
+    \small
     \begin{threeparttable}
-        \caption{ISTA Inhalt \parencite{semmerInstrumentZurStressbezogenen1999}}
+        \caption{Inhalte des ISTA \parencite{semmerInstrumentZurStressbezogenen1999}}
         \label{ITSA_Dims}
         \small
         \begin{tabularx}{\dimexpr\textwidth}{lcX}
             \toprule
-            Skala/Index & Item Anzahl & Beschreibung \\
+            Skala/Index & Items & Beschreibung \\
             \midrule
             %Soziodemographische Angaben & 8 & Welche Berufsausbildung haben Sie in Bezug auf Ihre jetzige Tätigkeit? \\
             %Qualifikationserfordernisse & 3 & Wenn Sie ihre Tätigkeit insgesamt betrachten wie viel Qualifikation verlangt sie? \\
@@ -213,7 +277,7 @@ von uns herausgehoben
             Handlungsspielraum & 5 & Entscheidungsmöglichkeiten über Vorgehensweise
             und Reihenfolge \\
             Partizipation & 7 & Einfluss auf Urlaubspläne, Arbeitszeit, Anschaffungen
-            u. ä.\\
+            und ähnliches \\
             Zeitspielraum & 5 & Einfluss auf Zeiteinteilung \\
             Variabilität & 5 & Verschiedenartigkeit der Anforderungen \\
             Unsicherheit & 5 & Unsicherheit über Anforderungen, Arbeitsergebnisse,
@@ -221,12 +285,12 @@ von uns herausgehoben
             Unfallgefährdung & 5 & --  \\
             Arbeitsorganisatorische Probleme & 5 & Qualität von Unterlagen, Material,
             Einrichtung des Arbeitsplatzes, Zwickmühle Qualität / Quantität \\
-            Einseitige Belastung & 6 & Langes Stehen/Sitzen, gebeugte, verdrehte u.ä.
-            Körperhaltung \\ 
+            Einseitige Belastung & 6 & Langes Stehen/Sitzen, gebeugte, verdrehte und ähnliche.
+            Körperhaltungen \\ 
             Umgebungsbelastungen & 17 & Ausprägung von Lärm, ungünstiger Beleuchtung 
             usw. \\
             Arbeitsunterbrechungen & 5 & Unterbrechungen durch Vorgesetzte, Kollegen,
-            Eilaufträge u. ä. \\
+            Eilaufträge und ähnliches \\
             Konzentrationsanforderungen & 5 & Vigilanzanforderungen, Belastung des 
             Kurzzeitgedächtnisses \\
             Zeitdruck & 5 & Hohes Arbeitstempo / -volumen \\
@@ -245,17 +309,116 @@ von uns herausgehoben
             \item Notes: Test
         \end{tablenotes}
     \end{threeparttable}
-
 \end{table}
 
+\blockquote{
+\tiny    
+Das von uns ausgewählte Testverfahren, um unsere Fragestellung zu untersuchen, 
+ist der ISTA: Instrument zur Stressbezogenen Tätigkeitsanalyse 
+\parencite{semmerISTAInstrumentZur1998}. 
 
-\subsubsection{Gütekriterien}
+Die theoretische Grundlage des Fragebogens ist das Transaktionale Stressmodell 
+welches sich mit dem Konstrukt aus unserer Fragestellung deckt und Stress
+als Produkt von Diskrepanz zwischen wahrgenommenen Ressourcen und externen, 
+sowie internen Anforderungen sieht (Lazarus und  Folkmann, 1984) 
+und die Handlungsregulationstheorie (Hacker, 1986; Volpert,
+1987). 
+Der Einfluss der objektiven Faktoren wird von den Autoren des ISTA hierbei jedoch
+stärker gewichtet als es in der originalen Theorie von Lazarus und Folkmann der Fall ist.
+
+Das Ziel des Fragebogens ist es Merkmale der Arbeit zu erheben, die stressrelevant sind,
+wozu sowohl Ressourcen als auch Stressoren erhoben werden mit dem Ziel einer
+Abschätzung der Folgen für Maßnahmen zur Arbeitsgestaltung. 
+
+Die Durchführung des Fragebogens dauert etwa eine Stunde (Semmer et al.,1999).
+
+Der Fragebogen liegt in zweifacher Ausfertigung vor, einmal als Ratingversion für
+Untersucherinnen und einmal für Arbeitnehmerinnen, wobei in unserer Testung letztere
+Version angewandt wird. 
+
+Das Verfahren wurde entwickelt, um insbesondere
+Belastungsschwerpunkte von Produktions- und Büroarbeitstätigkeiten zu untersuchen. Da
+die Fragen innerhalb des Fragebogens aber nicht auf konkrete Tätigkeiten der Büroarbeit
+ausgerichtet sind, liegt unseres Erachtens nach kein Widerspruch für unsere Anwendung im
+Bereich der Anforderungserhebung für den Job als Flugbegleiter:in vor. 
+
+Um sicherzugehen,
+dass die Antworten auf die Fragen auch von uns richtig verstanden wurden, ist eine
+Nachbesprechung im Interview mit der Testperson nach dem Ausfüllen des Fragebogens
+angedacht und etwaige Auffälligkeiten einer möglichen Beeinflussung des
+Analyseergebnisses aufgrund unserer Wahl des Fragebogens werden im Abschlussbericht
+von uns herausgehoben}
+
+\subsubsection*{Gütekriterien}
+
+\textbf{Objektivität}
+
+Die Objektivität des Verfahrens ist bei einer Anwendung nach Handbuch stark eingeschränkt, da keine Normwerte vorhanden sind und zur 
+Interpretation lediglich ein Vergleich mit anderen Abteilungen/dem restlichen Unternehmen nahegelegt wird 
+\parencite{semmerInstrumentZurStressbezogenen1999}. 
+Dabei besteht in diesem Kontext ein sehr großer Interpretationsspielraum welche Werte als auffällig gellten. 
+
+Um dem Entgegen zu wirken wurden für unsere Analyse die von \textcite{irmerInstrumentStressOrientedTask2019} identifizierten
+Mittelwerte und Standardabweichungen der Skalen herangezogen. 
+Mithilfe dieser wurden die erhaltenen Scores der jeweiligen Bereichen z-transformiert und daraus die Entsprechenden 
+Probenränge berechnet.
+
+\textbf{Reliabilität}
+
+Zur Reliabilität finden sich im Handbuch lediglich Angaben zur internen Konsistenz, 
+welche für den Großteil der Skalen ausreichende Werte (Fragebogenversion: r = 0,58-0,88) 
+
+
+\textbf{Validität}
+
+
 
 Vorab ist anzumerken, dass die aktuellste Version des ISTA, laut über 
 
 seit über 25 Jahren nicht
 erneuert wurde bzw. im Handbuch darauf hingewiesen wurde, dass sich das Verfahren zu
-der Zeit in Erprobung befindet. Aus diesem Grund haben wir uns dazu entschieden, in der
+der Zeit in Erprobung befindet.
+Aus diesem Grund haben wir uns dazu entschieden, in der
+Auswertung auch auf eine Meta-Analyse von \textcite{irmerInstrumentStressOrientedTask2019}
+zurückzugreifen, um aktuellere Vergleichswerte heranziehen zu können. 
+Zum aktuellen Zeitpunkt der Testung liegt laut unserer Recherche keine Normwerttabelle 
+für unsere zukünftigen Auswertungen und Interpretation vor.
+
+Zur Reliabilität finden sich im Handbuch lediglich Angaben zur internen Konsistenz, 
+welche für den Großteil der Skalen ausreichende Werte (Fragebogenversion: r = 0,58-0,88) 
+
+\parencite{semmerInstrumentZurStressbezogenen1999}. 
+
+Die Kriteriumsvalidität wird mit $r$= 0,2-0,3
+angegeben, was laut den Herstellern ein üblicher Wert für Stressmessungen ist.
+
+
+
+
+In der von uns erwähnten Metaanalyse werden jedoch eine interne Konsistenz von 
+$r = 0,71-0,84$ und eine Re-Testreliabilität von $r =0,75-0,85$ angegeben, mit Ausnahme der
+einseitigen Belastung, die mit $r$= 0,54 angegeben wurde.
+
+Bei der Erhebung der Konstruktvalidität korrelieren alle erfragten Stressoren, außer der
+Dimension Unfallgefährdung, signifikant positiv mit emotionaler Erschöpfung und
+psychosomatischen Beschwerden.
+
+Das Verfahren wird von den Herstellern und der Metaanalyse als ausreichend valide und
+reliabel, sowie ökonomisch eingeschätzt und erfüllt somit die Anforderungen der drei
+Hauptgütekriterien für den Rahmen des Seminars im Allgemeinen ausreichend und ist dem
+zeitlichen Aufwand der Arbeitnehmer*in für die Analyse entsprechend. Zudem basiert das
+Testverfahren, wie bereits erwähnt, zu einem Teil auf dem transaktionalen Stressmodell und
+entspricht somit dem theoretischen Konstrukt, welches auch unserer Fragestellung zu
+Grunde liegt. Die vorliegenden Aspekte haben uns zu der Entscheidung geführt, diesen
+Fragebogen für unsere Erhebung zu benutzen.
+
+\blockquote{
+\tiny    
+Vorab ist anzumerken, dass die aktuellste Version des ISTA, laut über 
+seit über 25 Jahren nicht
+erneuert wurde bzw. im Handbuch darauf hingewiesen wurde, dass sich das Verfahren zu
+der Zeit in Erprobung befindet.
+Aus diesem Grund haben wir uns dazu entschieden, in der
 Auswertung auch auf eine Meta-Analyse von \textcite{irmerInstrumentStressOrientedTask2019}
 zurückzugreifen, um aktuellere Vergleichswerte heranziehen zu können. 
 Zum aktuellen Zeitpunkt der Testung liegt laut unserer Recherche keine Normwerttabelle 
@@ -290,7 +453,10 @@ zeitlichen Aufwand der Arbeitnehmer*in für die Analyse entsprechend. Zudem basi
 Testverfahren, wie bereits erwähnt, zu einem Teil auf dem transaktionalen Stressmodell und
 entspricht somit dem theoretischen Konstrukt, welches auch unserer Fragestellung zu
 Grunde liegt. Die vorliegenden Aspekte haben uns zu der Entscheidung geführt, diesen
-Fragebogen für unsere Erhebung zu benutzen.
+Fragebogen für unsere Erhebung zu benutzen.}
+
+\subsubsection{Auswertung}
+
 
 \subsection{Qualitative Befragung: Halbstrukturiertes Interview}
 
@@ -422,8 +588,7 @@ worüber wir bis jetzt noch nicht geredet haben?
 \subsection{Quantitative Ergebnisse}
 
 Die Ergebnisse der quantitativen Befragung sind in Tabelle \ref{ISTA_Ergebnisse} aufgelistet. Als Normbereich definiert sind dabei Werte innerhalb 
-einer Standardabweichung vom Mittelwert (Prozentrang 16 bis 84), während während Werte außerhalb dieses Bereichs als auffällig gelten. 
-Der Normbereich spiegelt damit die Mittleren 70\% der Verteilung wieder. 
+einer Standardabweichung vom Mittelwert (Prozentrang 16 bis 84), während Werte außerhalb dieses Bereiches als auffällig interpretiert werden. 
 
 \begin{table}[h]
     \centering
@@ -433,45 +598,29 @@ Der Normbereich spiegelt damit die Mittleren 70\% der Verteilung wieder.
     \small
     \begin{tabularx}{\dimexpr\textwidth}{lcX}
         \toprule
-        Dimension & PR & Beschreibung\\
+        Dimension & z & PR\\
         \midrule
-        Komplexität & 0 & Komplexität ist deutlich unterdurchschntlich ausgeprägt, was darauf hinweist, dass Frau Z.
-        kaum mit komplexen Entscheidung konfrontiert ist und sehr wenig herausfordernde Aufträge erhält \\
-        Handlung Spielraum & 2 & Der Handlungsspielraum ist deutlich unter ausgeprägt, was drauf hindeutet, dass Frau Z. 
-        über wenig Entscheidungsmöglichkeiten über Vorgehen und Reihenfolge verfügt \\
-        Partizipation & 7 & Partizipation ist deutlich unterdurchschntlich ausgeprägt, was darauf hinweist, dass Frau Z. auf Einfluss 
-        auf Urlaubsppläne, Arbeitszeit, Anschaffungen \\
-        Variabilität & 30 & Variabilität ist durchschnittlich ausgeprägt, was auf eine dem Normbereich liegende Vielfältigkeit der Anforderungen
-        hindeutet \\
-        Zeitspielraum & 1 & Zeitspielraum ist deutlich unterdurchschnittlich ausgeprägt, was auf einen sehr geringen Einfluss auf die
-        Zeiteinteilung hindeutet \\
-        Unsicherheit & 72 & Unsicherheit ist durchschnittlich ausgeprägt, was auf eine im Normbereich liegende Klarheit von 
-        Anforderungen, Arbeitsergebnisse und Folgen hindeutet \\
-        Unfallgefährdung & 69 & Unfallgefährdung ist durchschnittlich ausgeprägt \\
-        Arbeitsorganisatorische Probleme & 45 & Arbeitsorganisatorische Probleme sind durchschnittlich ausgeprägt, was auf darauf hindeutet, 
-        dass sich Qualität von Unterlagen, Material und Einrichtung des Arbeitsplatzes im Normbereich befinden\\
-        Einseitige Belastung & 18 & Einseitige Belastung liegt im durchschnittlichem Bereich\\
-        Umgebungsbelastung & 92 & Die Umgebungsbelastung ist überdurchschnittlich ausgeprägt, was auf eine hohe
-        Belastung durch Lärm, ungünstige Beleuchtung und ähnliches hindeutet. \\
-        Arbeitsunterbrechungen & 92 & Arbeitsunterbrechungen sind überdurchschnittlich ausgeprägt, was auf häufige Unterbrechungen
-        durch hindeutet \\
-        Konzentrationsanforderungen & 80 & Konzentrationsanforderungen liegen im durchschnittlich Bereich was auf übliche Vigilanzanforderungen und 
-        Belastung des Kurzzeitgedächtnisses hindeutet\\
-        Zeitdruck & 64 & Zeitdruck liegt im durchschnittlichem Bereich, was ein im Normbereich liegendens
-        Hohes Arbeitstempo und -volumen hindeutet\\
-        Kommunikationsmöglichkeiten & 83  & Kommunikationsmöglichkeiten sind durchschnittlich ausgeprägt, was auf dem 
-        Normbereich entsprechende Möglichkeiten zur Kontaktaufnahme und nicht arbeitsbezogener Kommunikation hindeutet\\
-        Kooperationsspielraum & $1.67^a$ & ---\\
-        Kooperationsenge & $5^a$ & --\\
-        Kooperationserfordernisse & 82 & Kooperationserfordernisse liegen im durchschnittlichem Bereich was auf eine der Norm 
-        entsprechende Notwendigkeit gemeinsamer Entscheidungen und gegenseitiger Informationen hindeutet\\
+        Komplexität & -2.94 & 0 \\
+        Handlung Spielraum & -2.17 & 2 \\
+        Partizipation & -1.51 & 7 \\
+        Variabilität & -0.52  & 30 \\
+        Zeitspielraum & -2.41 & 1 \\
+        Unsicherheit & 0.58 & 72 \\
+        Unfallgefährdung & 0.51 & 69 \\
+        Arbeitsorganisatorische Probleme & -0.12 & 45 \\
+        Einseitige Belastung & -0.90 & 18 \\
+        Umgebungsbelastung & 1.41 & 92 \\
+        Arbeitsunterbrechungen & 1.39 & 92 \\
+        Konzentrationsanforderungen & 0.85 & 80 \\
+        Zeitdruck & 0.36 & 64 \\
+        Kommunikationsmöglichkeiten & 0.96 & 83 \\
+        Kooperationsspielraum & $1.67^a$ & -- \\
+        Kooperationsenge & $5^a$ & -- \\
+        Kooperationserfordernisse & 0.91 & 82 \\
         \bottomrule
     \end{tabularx}
     \end{threeparttable}
 \end{table}
-
-Basierend auf den Ergebnissen des ISTA lässt sich die Arbeitstätigkeit von Frau Z. als arbeitsintensiv und zeitweise fordernd beschreiben.
-%Völlige Nonsens Formulierung. 
 
 Die Testergebnisse zeigen, dass die Anforderungen der Arbeitstätigkeit vor allem in den Bereichen Komplexität, Handlungsspielraum, Partizipation, 
 Zeitspielraum, Umgebungsbelastung, Arbeitsunterbrechungen, Kooperationsspielraum und Kooperationsenge auffällig sind.
@@ -603,7 +752,7 @@ Es gäbe jährliche Schulungen zu Konfliktmanagement, die verpflichtend besucht 
 Als positiv wurde zudem hervorgehoben, dass der Job die Möglichkeit biete, viele verschiedene Orte sehen zu können und
 auch außerhalb der Saisonzeiten zu vergünstigten Preisen Flüge zu buchen.
 
-\section{Zusammenfassung der Ergebnisse und Beantwortung der Fragestellung}
+\section{Beantwortung der Fragestellung}
 
 Die Tätigkeit von Frau Z. als Flugbegleiterin bei Austrian Airlines seit 2022, wurde mittels qualitativer Ergebnisse eines 
 halbstrukturierten Interviews und quantitativer Daten eines Fragebogens (ISTA) analysiert.
@@ -630,12 +779,120 @@ als positive Charakteristika genannt. Frau Z.s Bewertung der Dimension Kommunika
 innerhalb des stetig wechselnden Teams und mit Vorgesetzten hinweisen.
 
 \section{Handlungsempfehlungen}
+ 
+Im folgenden werden konkrete Maßnahmen bezüglich der identifizierten Auffälligen Bereiche vorgeschlagen um die Arbeitsbedienungen von Frau Z. 
+zu verbessern.   
 
+\blockquote{
+\tiny
 Zur Verbesserung der Arbeitsbedingungen von Frau Z. werden verschiedene Maßnahmen zur Bewältigung der identifizierten Herausforderungen vorgeschlagen. 
-Im folgenden werden konkrete Handlungsempfehlungen beschrieben, die zu einer Verbesserung von Frau Z.s Berufsbedingungen führen sollen.  
+Im folgenden werden konkrete Handlungsempfehlungen beschrieben, die zu einer Verbesserung von Frau Z.s Berufsbedingungen führen sollen.  }
 
+\textbf{Komplexität}
+
+Um die kognitive Beanspruchung zu steigern, wird empfohlen den Verantwortungsbereich der einzelnen 
+Mitarbeiter:innen zu erweitern, indem z.B. spezifische Aufgaben verteilt oder die Einbindung in die Ausbildung 
+neuer Kolleg:innen übernommen werden. Durch gezielte Schulungen in diversen Bereichen können zusätzliche 
+Kompetenzen erworben werden, die die Flugbegleiter:innen zu erweiterten Verantwortungsbereichen befähigen können.
+
+\textbf{Handlungsspielraum}
+
+Zur Erhöhung der Autonomie können im Rahmen der sicherheitstechnisch bedingten Möglichkeiten 
+mehr Möglichkeiten zur individuellen Dienstplangestaltung und Ermutigung zur Mitgestaltung 
+interner Abläufe durch Feedback-Tools empfohlen werden. Bei nicht sicherheitskritischen 
+Aufgaben wie im Fall der Serviceabfolge bei geringer Auslastung werden flexiblere Abfolgen ebenfalls als sinnvoll erachtet
+
+\textbf{Zeitspielraum und Zeitdruck}
+
+Um die Mitarbeiter:innen im Bereich der zeitlichen Planung zu entlasten, 
+wird die Einberechnung größerer Zeitspielräume für die Vorbereitung auf den Flugstart empfohlen. 
+Zudem könnte eine Angabe von Zeitspannen, anstatt von Zeitpunkten für den ungefähren Dienstschluss 
+die allgemeine Frustrationsgrenze erhöhen, sollten umweltbedingte Verlängerungen von Dienstzeiten entstehen. 
+Eine adäquat angepasste Vergütung für die Arbeitszeit auf dem Boden, 
+könnte den Zeitdruck für die Flugbegleiterinnen ebenfalls reduzieren, 
+sowie auch eine ausgleichende Kompensation bei Überzeiten. 
+Abschließend wäre eine frühere Bekanntgabe der Dienstzeiten zu empfehlen, um die Planbarkeit des Privatlebens 
+und die Möglichkeit für interne Dienstwechsel zu erleichtern. 
+
+\blockquote{
+\tiny
+Eine adäquat angepasste Vergütung für die Arbeitszeit, sich noch auf dem Boden befindet, 
+könnte den Zeitdruck für die Flugbegleiterinnen ebenfalls reduzieren,... }
+
+\textbf{Partizipation}
+
+Um die Partizipationsmöglichkeiten der Mitarbeiter:innen zu erhöhen, 
+wird geraten, neben Feedback-Tools auch regelmäßige Feedbackgespräche mit Vorgesetzten einzuführen. 
+In diesen Gesprächen können Verbesserungsvorschläge besprochen und aufgenommen werden. 
+Zusätzlich kann ein Mitarbeiterbeirat eingeführt werden, welcher Gestaltungsideen 
+hinsichtlich der Arbeitsbedingungen einbringen kann.
+
+\textbf{Ruhephasen und Pausen}
+
+Um Erholungsmöglichkeiten während der Arbeit zu verbessern, sollte die Pausenstruktur grundlegend geändert werden. 
+Es sollten verpflichtende Kurz-Pausen an Bord mit einer Rückzugsmöglichkeit im Rahmen der räumlichen 
+Möglichkeiten eingeführt werden. Außerdem können Ruheräume, nur zugänglich für Flugbegleiter, 
+an Flughäfen für eine gute Regeneration zwischen den Flügen sorgen. Schulungen zur Wichtigkeit von 
+Pausen und Erholung sollten zur gezielten Förderung der generellen Pausenkultur eingesetzt werden.
+
+\textbf{Hierarchie}
+
+Um die Hierarchie flacher zu gestalten sollte die Zuleitungsweise der Aufgaben im Flugzeug geändert werden. Denke wäre zum Beispiel, dass 
+bei Tagen mit mehreren Flügen Aufgaben so aufgeteilt werden, dass sich Mitarbeiter:innen bei weniger bleiben Aufgaben abwechseln.
+Möglich wären auch mit dem Übernehmen unbeliebter Aufgaben verbundene Benefits wie z.b. eine kurze Pause während des Fluges. 
+
+\textbf{Emotionale Belastungen}
+
+Um Emotionale Belastung im Flugzeug, insbesondere durch zwischenmenschliche Konflikte, 
+zu reduzieren werden verpflichtende Schulungsmaßnahmen in den Bereichen Konfliktmanagement und Stressbewältigung empfohlen. 
+Alternativ können auch speziell weitergebildete Flugbegleiter:innen eine Sonderrolle in diesem Bereich übernehmen.
+Zur Reduktion von Konflikten mit Passagier:innen zu reduzieren können Strafen für grobe Regelverstöße eingeführt werden.
+Zusätzlich könnte am Flughafen bereits auf auffällige Passagier:innen (z.b. durch Alkoholisierung) geachtet werden und durch mehr
+Menschliche Ansprechpartner:innen am Flughafen die Frustration der Flugäste reduziert werden. 
+
+\blockquote{
+    \tiny
+    Mitbestimmung bei Flügen in bestimmte Krisengebiete sollte wenn möglich eingeführt werden.
+    
+    Das existiert ja schon... aber dann verlängern die dich halt nicht...
+    }
+
+\textbf{körperliche Belastungen}
+
+Um mit der Belastung der unregelmäßigen Dienstzeiten und Zeitzonen wechseln umzugehen, werden Schulungen empfohlen,
+welche Strategien vermitteln damit effektiv umzugehen. 
+Außerdem sollten stabilere und regelmäßigere Dienstzeiten eine höhere Priorität bei der Ausarbeitung der Dienstpläne bekommen. 
+
+\textbf{Umgebungsbelastung}
+
+Aufgrund der Arbeitssituation ist 
+
+
+
+
+
+\textbf{Arbeitsunterbrechungen}
+
+Zur Verringerung von Arbeitsunterbrechungen wird eine bessere, 
+im Vorhinein getätigte Abstimmung bei der Aufgabenverteilung und Aufgabenpriorisierung empfohlen. 
+Zusätzlich können Guidelines für die (Nicht-)Notwendigkeit von Arbeitsunterbrechungen festgelegt werden. 
+In den bereits vorhandenen Teambuilding-Workshops kann auch das Thema Arbeitsunterbrechungen eingebracht 
+werden und die Eigenmotivation zur selbständigen Aufgabenerledigung und Awareness für Arbeitsunterbrechungen 
+gefördert werden.
+
+\textbf{Kooperationsenge und Informationsfluss}
+
+Zur Verringerung der Kooperationsenge wird angeraten, Maßnahmen für eine stabilere Teamstruktur durchzuführen.
+Dies gelingt einerseits durch die bereits vorhandenen Teambuilding-Workshops und Schulungen, 
+welche nach Möglichkeit noch ausgeweitet werden können. Andererseits kann der Kooperationsenge auch entgegengewirkt werden, 
+indem temporär auch fixe Teams über mehrere Dienste hinweg gebildet werden. Dies ermöglicht es den Mitarbeiter:innen,
+ihre Arbeitsstile und Abläufe für den Zeitraum als Team effizienter aufeinander abzustimmen.
+Zusätzlich wächst das Vertrauen zwischen Teammitgliedern, wodurch eine verbesserte Kommunikation erwartet wird.
+Bezüglich des Informationsflusses bei unerwarteten Ereignissen,
+wie Verspätungen oder Wetterumschwüngen, wird zu einer verpflichtenden Informationsweitergabe geraten.
 
 \newpage
+
 \printbibliography
 
 \end{document}
